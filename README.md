@@ -1,2 +1,2 @@
-# Langing Page de uma loja de CubeSats
+# Landing Page de uma loja de CubeSats
 
