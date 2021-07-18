@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+
+        .card-container {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        .card{
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            flex-basis: 20%;
+        }
+
+        .description {
+            text-align: center;
+            margin: 5px 2px;
+            font-size: 10px;
+        }
+
+        .price {
+            font-weight: 600;
+            /* padding: 2px; */
+        }
+
+        .button {
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid black;
+        }
+
+        .button:hover {
+            cursor: pointer;
+            background-color: black;
+            color: #fff;
+        }
+
+        @media (max-width: 700px) {
+            .button{
+                width: 100%;
+                border-radius: 0;
+            }
+
+            .card {
+                flex-basis: 100%;
+            }
+
+            .description {
+                display: none;
+            }
+
+            img {
+                display: none;
+            }
+            
+        }
+
+
+        div {
+            border: 1px solid #000;
+            width: 200px;
+        }
+
+        img {
+            margin: 0 5px;
+            width: 100 px;
+            border: 0.5px solid lightslategray;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="card-container">
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+        <div class="card">
+            <h3 class="title">Produto</h3>
+            <img src="./ball.jpg" width="100" height="100">
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span class="price">Preço: R$ 1000.00</span>
+            <button class="button">COMPRAR</button>
+        </div>
+
+    </div>
+   
+
+</body>
+</html>
