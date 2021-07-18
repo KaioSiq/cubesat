@@ -150,6 +150,12 @@ form {
   flex-basis: 20%;
 }
 
+.message{
+  color: #bbb;
+  margin-bottom: 5px;
+  
+}
+
 .title {
   font-weight: 600;
   color: #fff;
